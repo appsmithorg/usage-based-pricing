@@ -4,7 +4,7 @@ export default function Layout({ children }) {
   return (
     <>
       <div className="">
-        <Navbar
+        {/* <Navbar
           collapseOnSelect
           expand="lg"
           bg="light"
@@ -18,9 +18,6 @@ export default function Layout({ children }) {
                 <Nav.Link className="text-dark" href="/">
                   Home
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="">
-                  About
-                </Nav.Link>
                 <Nav.Link
                   className="text-dark"
                   href="https://github.com/appsmithorg/usage-based-pricing-vendors"
@@ -31,7 +28,7 @@ export default function Layout({ children }) {
               </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+        </Navbar> */}
 
         <div className="">{children}</div>
       </div>
