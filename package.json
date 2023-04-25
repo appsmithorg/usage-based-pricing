@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "dev:watch": "next-remote-watch ./vendors",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "next-mdx-remote": "^3.0.1",
+    "next-remote-watch": "1.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.0",
+    "swr": "^2.1.4"
+  }
+}

@@ -1,0 +1,9 @@
+.vscode
+node_modules
+.next
+*.DS_Store
+.env
+.env.local
+.vercel
+yarn-error.log
+.idea
