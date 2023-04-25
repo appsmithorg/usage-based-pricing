@@ -88,7 +88,15 @@ export default function Index({ vendors }) {
               </li>
             </ul>
             You can contribute to any section of the website by raising a PR on
-            the github repo.
+            the{" "}
+            <Link
+              github
+              href="https://github.com/appsmithorg/usage-based-pricing-vendors"
+              target="_blank"
+            >
+              github{" "}
+            </Link>{" "}
+            repo.
           </div>
         </Dropdown>
 
@@ -202,7 +210,14 @@ export default function Index({ vendors }) {
         <hr className="my-4" />
         <div>Made and maintained with love by Appsmith.</div>
         <div className="mb-4 text-secondary">
-          Contribute to this page by raising a PR on Github.
+          Contribute to this page by raising a PR on{" "}
+          <Link
+            href="https://github.com/appsmithorg/usage-based-pricing-vendors"
+            target="_blank"
+          >
+            Github
+          </Link>
+          .
         </div>
       </Container>
     </Layout>

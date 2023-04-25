@@ -4,17 +4,6 @@ export default function Layout({ children }) {
   return (
     <>
       <div className="">
-        {/* <Navbar
-          collapseOnSelect
-          expand="lg"
-          style={{ backgroundColor: "#ff6d2d" }}
-        >
-          <Container>
-            <Navbar.Brand className="mx-auto text-white" href="#home">
-              Usage Based Billing Vendors
-            </Navbar.Brand>
-          </Container>
-        </Navbar> */}
         <Navbar
           collapseOnSelect
           expand="lg"
@@ -26,13 +15,17 @@ export default function Layout({ children }) {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link className="text-dark" href="">
+                <Nav.Link className="text-dark" href="/">
                   Home
                 </Nav.Link>
                 <Nav.Link className="text-dark" href="">
                   About
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="">
+                <Nav.Link
+                  className="text-dark"
+                  href="https://github.com/appsmithorg/usage-based-pricing-vendors"
+                  target="_blank"
+                >
                   Contribute
                 </Nav.Link>
               </Nav>
