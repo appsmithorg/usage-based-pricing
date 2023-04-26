@@ -257,10 +257,10 @@ export default function Index({ vendors }) {
                 href="https://github.com/appsmithorg/appsmith"
                 target="_blank"
               >
-                open source
+                open-source
               </Link>{" "}
               development platform to build and launch internal apps quickly.
-              And of course, with a usage based pricing.
+              With a friendly usage based pricing.
             </div>
             <div className="mb-4 text-secondary">
               Contribute to this page by raising a PR on{" "}
