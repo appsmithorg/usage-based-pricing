@@ -124,7 +124,7 @@ export default function Index({ vendors }) {
                           {vendor.data.company}
                         </Link>
                       </td>
-                      <td>{vendor.data.industry}</td>
+                      <td>{vendor.data.category}</td>
                       <td>{vendor.data.usage_metrics}</td>
                       <td>
                         {vendor.data.links ? (
