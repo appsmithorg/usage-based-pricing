@@ -272,46 +272,6 @@ export default function Index({ vendors }) {
               </Link>
               .
             </div>
-            <Row>
-              <Col md="12">
-                <div>
-                  Made and maintained with love by{" "}
-                  <Link href="https://appsmith.com" target="_blank">
-                    <Image
-                      className="img-fluid"
-                      src="/appsmith.svg"
-                      width="100"
-                    />
-                  </Link>
-                  .
-                </div>
-                <div>
-                  Appsmith is an{" "}
-                  <Link
-                    href="https://github.com/appsmithorg/appsmith"
-                    target="_blank"
-                  >
-                    open source
-                  </Link>{" "}
-                  development platform to build and launch internal apps
-                  quickly. And of course, with a usage based pricing.
-                </div>
-                <div className="mb-4 text-secondary">
-                  Contribute to this page by raising a PR on{" "}
-                  <Link
-                    href="https://github.com/appsmithorg/usage-based-pricing-vendors"
-                    target="_blank"
-                  >
-                    Github
-                  </Link>
-                  . Inspired by{" "}
-                  <Link href="https://sso.tax/" target="_blank">
-                    sso.tax
-                  </Link>
-                  .
-                </div>
-              </Col>
-            </Row>
           </Col>
         </Row>
       </Container>
