@@ -121,7 +121,7 @@ export default function Index({ vendors }) {
                           href={vendor.data.url ? vendor.data.url : "#"}
                           target="_blank"
                         >
-                          {vendor.data.title}
+                          {vendor.data.company}
                         </Link>
                       </td>
                       <td>{vendor.data.industry}</td>
@@ -132,7 +132,7 @@ export default function Index({ vendors }) {
                             href={vendor.data.links ? vendor.data.links : "#"}
                             target="_blank"
                           >
-                            Annoucement
+                            Announcement
                           </Link>
                         ) : (
                           "-"
