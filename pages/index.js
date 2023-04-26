@@ -138,7 +138,15 @@ export default function Index({ vendors }) {
                           "-"
                         )}
                       </td>
-                      <td>{vendor.data.oss}</td>
+                      <td>
+                        {["OSS", "YES", "COSS"].includes(
+                          vendor.data.oss.toUpperCase()
+                        ) ? (
+                          <b>{vendor.data.oss}</b>
+                        ) : (
+                          <>{vendor.data.oss}</>
+                        )}
+                      </td>
                       <td>{vendor.data.type}</td>
                       <td>{vendor.data.date_updated}</td>
                     </tr>
