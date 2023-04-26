@@ -48,55 +48,55 @@ export default function Index({ vendors }) {
             >
               <div>
                 <p>
-                  Usage Based Billing or Usage Based Pricing is a business model
-                  where companies choose to charge their customers basis the
-                  value they're derive from product usage as opposed to the
-                  prevailing practice of charging per user.
+                  Usage-Based Billing or Usage-Based Pricing is a business model
+                  where companies choose to charge customers based on the value
+                  they receive from product usage, rather than the prevailing
+                  practice of charging per user.
                 </p>{" "}
                 <p>
-                  Companies that have adopted this new model have demonstrated
-                  their commitment to transparency and fairness, while also
-                  seeing impressive returns in the stock market. Whether they
-                  use a pure transaction model or a mix of transaction and
+                  Companies that have adopted this model demonstrate their
+                  commitment to transparency and fairness, while also seeing
+                  impressive returns in the stock market. Whether they use a
+                  pure transaction model or a mix of transaction and
                   subscription-based models, the underlying principle is the
                   same: users are valued based on the actual value they derive
-                  from a product or service. There are a large number of metrics
-                  that can be used to determine the value derived by users.
+                  from a product or service. There are numerous metrics that can
+                  be used to determine the value derived by users.
                 </p>
                 <p>
-                  We're proud to feature a comprehensive list of companies
+                  We’re proud to feature an ever growing list of companies
                   across a wide range of industries that have embraced
                   usage-based billing. By highlighting these companies and their
                   successes, we hope to inspire others to join the movement
-                  towards a more equitable, user-centric approach to billing.
+                  toward a more equitable, user-centric approach to billing.
                 </p>
-                <p>We hope this website is use useful to:</p>
+                <p>This page is useful for:</p>
                 <ul>
                   <li>
                     People looking to discover products that have embraced a
-                    usage based pricing model as they're looking to find
-                    alternatives to a user based pricing model.{" "}
+                    usage-based pricing model as they seek alternatives to
+                    user-based pricing.{" "}
                   </li>
                   <li>
-                    People looking to launch usage based billing for their
-                    product, and learn from the various revenue models that
-                    exist in this paradigm.
+                    People looking to launch usage-based billing for their
+                    product and learn from the various revenue models in this
+                    paradigm.
                   </li>
                   <li>
-                    People looking to find technology solutions to help
-                    implement usage based pricing for their own products
+                    People looking for technology solutions to help implement
+                    usage-based pricing for their own products.
                   </li>
                 </ul>
-                You can contribute to any section of the website by raising a PR
-                on the{" "}
+                You can contribute to any section of the website by submitting a
+                pull request on the{" "}
                 <Link
                   github
                   href="https://github.com/appsmithorg/usage-based-pricing-vendors"
                   target="_blank"
                 >
-                  github{" "}
+                  github
                 </Link>{" "}
-                repo.
+                repository.
               </div>
             </Dropdown>
 
@@ -260,6 +260,7 @@ export default function Index({ vendors }) {
                 open source
               </Link>{" "}
               development platform to build and launch internal apps quickly.
+              And of course, with a usage based pricing.
             </div>
             <div className="mb-4 text-secondary">
               Contribute to this page by raising a PR on{" "}
