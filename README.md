@@ -1,7 +1,11 @@
-Made and maintained with love by [Appsmith](https://www.appsmith.com/). Contribute to this page by raising a PR on Github.
+# Usage-based Pricing Done Right
 
-Website: [UsageBased](https://usagebased.org/)
+The repo behind [UsageBased](https://usagebased.org/), helping people discover products that put customers first with usage-based pricing.
 
+# Contributions welcome! 
+We're looking for contributions around:
+- Compiling products that have a usage-based pricing model
+- Compiling usage or metered billing infrastructur vendors 
 
 ### Adding Usage-based pricing vendors
 
@@ -32,3 +36,6 @@ Website: [UsageBased](https://usagebased.org/)
         "url": ""
       },
     ```
+# Run by Appsmith
+
+We're an open source development platform to build and launch internal apps quickly. [Have a look!](https://appsmith.com/)
