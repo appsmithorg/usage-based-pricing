@@ -31,6 +31,10 @@
         {
         "name": "Goodsign",
         "url": "https://www.goodsign.com/software"
+      },
+        {
+        "name": "Stripe",
+        "url": "https://stripe.com/docs/billing/subscriptions/usage-based"
       }
     ]
   }
