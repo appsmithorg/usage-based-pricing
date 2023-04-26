@@ -11,30 +11,45 @@ We're looking for contributions around:
 
 1. Create a new `mdx` file inside the `/vendors` folder as `<vendor_name>.mdx`
 2. Add the vendor details in the folloing format.
+
+  Example submission:
    ```
    ---
-    title: Appsmith
-    url: https://www.appsmith.com/pricing (Link to their pricing page)
-    industry: Internal Tools
-    usage_metrics: Hours (w/ a cap)
-    links: https://www.appsmith.com/blog/usage-based-pricing (Annoucemnts / Related links)
-    oss: OSS/NO
+    company: Appsmith
+    url: https://www.appsmith.com/pricing
+    category: Internal Tools
+    usage_metrics: Hours
+    links: https://www.appsmith.com/blog/usage-based-pricing
+    oss: OSS
     type: Transactional
     date_updated: 21-04-2023
     ---
    ```
-3. Create a PR
+
+   Fields:
+   ```
+   company: company or product name in case specific products follow usage based pricing
+   url: url of the pricing page
+   category: category (the more granular the better)
+   usage_metrics: unit of billing
+   links: supporting content e.g url of annoucement post
+   oss: oss/no
+   type: transactional/ub subscription (transactional if there is no minimum commitment for e.g Appsmith; ub subscription if there is a minimum commitment for e.g Hubspot Marketing)
+   date_updated: dd-mm-yyyy
+   ```
+
+3. Raise a PR, and we'll add it to the list.
 
 
 ### Adding billing vendors
 
 1. Add a new item inside `billing_vendors/vendors.json` file.
 2. Use the following format:
-    ```
+    ```json
     {
         "name": "",
         "url": ""
-      },
+    }
     ```
 # Run by Appsmith
 
