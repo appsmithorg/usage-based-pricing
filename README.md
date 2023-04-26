@@ -1,4 +1,6 @@
-Made and maintained with love by [Appsmith](https://www.appsmith.com/). Contribute to this page by raising a PR on Github. 
+Made and maintained with love by [Appsmith](https://www.appsmith.com/). Contribute to this page by raising a PR on Github.
+
+Website: [https://usage-based-pricing.vercel.app/](https://usage-based-pricing.vercel.app/)
 
 
 ### Adding Usage-based pricing vendors
