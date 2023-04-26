@@ -1,17 +1,20 @@
+// mdx support imports
 import fs from "fs";
 import matter from "gray-matter";
-import path from "path";
-import Layout from "../components/Layout";
-import Link from "next/link";
 
+import path from "path";
+import Link from "next/link";
 import { postFilePaths, VENDOR_PATH } from "../utils/mdxUtils";
+
+// react-bootstrap
 import { Container, Row, Col, Table, Image } from "react-bootstrap";
 
+// swr
 import useSWR from "swr";
 
-// component
-
+// components
 import Dropdown from "../components/DropDown";
+import Layout from "../components/Layout";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -26,14 +29,11 @@ export default function Index({ vendors }) {
 
   return (
     <Layout>
-      {/* hero unit */}
       <div className="page-header py-5">
         <div className="py-4">
-          <h6>USAGE BASED PRICING FOR THE WIN</h6>
-          <h1>Usage Based Pricing </h1>
+          <h1>Usage Based Pricing Done Right</h1>
           <p className="mb-4 lead">
-            A list of vendors that treat single sign-on as <br /> a luxury
-            feature, not a core security requirement.
+            Discover companies that put customers first with usage-based pricing
           </p>
         </div>
       </div>
