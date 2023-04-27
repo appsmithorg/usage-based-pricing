@@ -57,9 +57,9 @@ class MyApp extends App {
             },
           }}
           twitter={{
-            handle: "@handle",
-            site: "@site",
-            cardType: "summary_large_image",
+            handle: "@theappsmithorg",
+            site: "https://www.usagebased.org/",
+            cardType: "summary",
           }}
         />
         <Component {...pageProps} />
