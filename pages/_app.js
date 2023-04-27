@@ -26,15 +26,6 @@ class MyApp extends App {
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossOrigin="anonymous"
           />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-FHZ93K2JHB"
-          ></script>
-          <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-FHZ93K2JHB');
-          </script>
         </Head>
         <Component {...pageProps} />
       </>

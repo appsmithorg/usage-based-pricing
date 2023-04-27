@@ -278,6 +278,10 @@ export default function Index({ vendors }) {
               >
                 Github
               </Link>
+              . Inspired by{" "}
+              <Link href="https://sso.tax/" target="_blank">
+                sso.tax
+              </Link>
               .
             </div>
           </Col>
