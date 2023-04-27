@@ -19,7 +19,10 @@ class MyApp extends App {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link rel="shortcut icon" href="/favicon.ico" />
-          <meta property="og:image" content="/favicon.png" />
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/toolspacedev/image/upload/v1682606510/Usage_Based_izyzmf.png"
+          />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
