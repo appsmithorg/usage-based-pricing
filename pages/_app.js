@@ -47,13 +47,13 @@ class MyApp extends App {
           openGraph={{
             type: "website",
             locale: "en_IE",
-            url: "https://www.usagebased.org/",
-            siteName: "SiteName",
+            url: "https://www.usagebased.org",
+            siteName: "usagebased.org",
             images: {
               url: "https://res.cloudinary.com/toolspacedev/image/upload/v1682597894/favicon_cleycj.png",
               width: 650,
               height: 650,
-              alt: "Photo of text",
+              alt: "logo",
             },
           }}
           twitter={{
