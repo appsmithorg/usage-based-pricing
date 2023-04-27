@@ -10,7 +10,7 @@ We're looking for contributions around:
 ### Adding Usage-based pricing vendors
 
 1. Create a new `mdx` file inside the `/vendors` folder as `<vendor_name>.mdx`
-2. Add the vendor details in the folloing format.
+2. Add the vendor details in the following format.
 
   Example submission:
    ```
@@ -44,13 +44,15 @@ We're looking for contributions around:
 ### Adding billing vendors
 
 1. Add a new item inside `billing_vendors/vendors.json` file.
-2. Use the following format:
+2. Add the venfor details in the following format:
     ```json
     {
         "name": "",
         "url": ""
     }
     ```
+3. Raise a PR, and we'll add it to the list.
+
 # Run by Appsmith
 
 We're an open source development platform to build and launch internal apps quickly. [Have a look!](https://appsmith.com/)
