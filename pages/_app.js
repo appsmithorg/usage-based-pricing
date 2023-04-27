@@ -6,6 +6,8 @@ import Head from "next/head";
 // app css
 import "../styles/globals.scss";
 
+import { DefaultSeo } from "next-seo";
+
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
@@ -27,6 +29,39 @@ class MyApp extends App {
             crossOrigin="anonymous"
           />
         </Head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FHZ93K2JHB"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-FHZ93K2JHB');`,
+          }}
+        ></script>
+        <DefaultSeo
+          title="Usage Based Pricing Done Right"
+          description="Discover companies that put customers first with usage-based pricing"
+          openGraph={{
+            type: "website",
+            locale: "en_IE",
+            url: "https://www.usagebased.org/",
+            siteName: "SiteName",
+            images: {
+              url: "https://raw.githubusercontent.com/appsmithorg/usage-based-pricing/main/public/favicon.png",
+              width: 850,
+              height: 650,
+              alt: "Photo of text",
+            },
+          }}
+          twitter={{
+            handle: "@handle",
+            site: "@site",
+            cardType: "summary_large_image",
+          }}
+        />
         <Component {...pageProps} />
       </>
     );
