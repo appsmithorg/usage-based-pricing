@@ -7,7 +7,15 @@ import Link from "next/link";
 import { postFilePaths, VENDOR_PATH } from "../utils/mdxUtils";
 
 // react-bootstrap
-import { Container, Row, Col, Table, Image } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Table,
+  Image,
+  Tooltip,
+  OverlayTrigger,
+} from "react-bootstrap";
 
 // swr
 import useSWR from "swr";
@@ -105,11 +113,11 @@ export default function Index({ vendors }) {
                 <thead>
                   <tr>
                     <th>Company</th>
-                    <th>Industry</th>
+                    <th>Category</th>
                     <th>Usage Metric</th>
                     <th>Links</th>
                     <th>OSS</th>
-                    <th>Type</th>
+                    <th>Billing Type</th>
                     <th>Date Updated</th>
                   </tr>
                 </thead>
@@ -252,6 +260,11 @@ export default function Index({ vendors }) {
             </Dropdown>
 
             <hr className="my-4" />
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center text-center">
+          <Col md="12">
             <div>
               Made and maintained with love by{" "}
               <Link href="https://appsmith.com" target="_blank">
@@ -270,7 +283,7 @@ export default function Index({ vendors }) {
               development platform to build and launch internal apps quickly.
               With a friendly usage based pricing.
             </div>
-            <div className="mb-4 text-secondary">
+            <div className="mb-4 text-secondary mt-3">
               Contribute to this page by raising a PR on{" "}
               <Link
                 href="https://github.com/appsmithorg/usage-based-pricing-vendors"
