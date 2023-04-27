@@ -50,8 +50,8 @@ class MyApp extends App {
             url: "https://www.usagebased.org/",
             siteName: "SiteName",
             images: {
-              url: "https://raw.githubusercontent.com/appsmithorg/usage-based-pricing/main/public/favicon.png",
-              width: 850,
+              url: "https://res.cloudinary.com/toolspacedev/image/upload/v1682597894/favicon_cleycj.png",
+              width: 650,
               height: 650,
               alt: "Photo of text",
             },
