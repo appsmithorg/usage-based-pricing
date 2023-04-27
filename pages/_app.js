@@ -52,9 +52,9 @@ class MyApp extends App {
             siteName: "usagebased.org",
             images: [
               {
-                url: "/favicon.png",
-                width: 650,
-                height: 650,
+                url: "https://res.cloudinary.com/toolspacedev/image/upload/v1682606510/Usage_Based_izyzmf.png",
+                width: 1200,
+                height: 800,
                 alt: "logo",
               },
             ],
