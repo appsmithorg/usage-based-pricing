@@ -35,6 +35,15 @@
         {
         "name": "Stripe",
         "url": "https://stripe.com/docs/billing/subscriptions/usage-based"
+      },
+        {
+        "name": "Metronome",
+        "url": "https://metronome.com/"
+      },
+        {
+        "name": "Octane",
+        "url": "https://www.getoctane.io/"
       }
+        
     ]
   }
