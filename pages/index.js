@@ -221,8 +221,9 @@ export default function Index({ vendors }) {
               <p>
                 We've followed the segmentation logic provided by OpenView
                 Partners and broadly bucketed the pricing models into some
-                variant of Transactional or Usage-based subscription.
-                Transactional models are flexible pricing where customers only
+                variant of Transactional or Usage-based subscription. 
+                While both are usage based models, Transactional models are
+                flexible pricing where customers only
                 pay for what they have used during the period. In the UB
                 subscription model, customers commit to their desired level of
                 usage. They can upgrade or pay overages for more usage. If they
