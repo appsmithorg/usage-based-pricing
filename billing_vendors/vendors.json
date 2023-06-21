@@ -1,57 +1,72 @@
 {
-    "data": [
-      {
-        "name": "Archetype",
-        "url": "https://www.archetype.dev"
-      },
-      {
-        "name": "m3ter",
-        "url": "https://www.m3ter.com"
-      },  
-      {
-        "name": "Tier",
-        "url": "https://www.tier.run"
-      },
-      {
-        "name": "Lago",
-        "url": "https://www.getlago.com"
-      },
-      {
-        "name": "Togai",
-        "url": "https://www.togai.com/"
-      },
-      {
-        "name": "Orb",
-        "url": "https://www.withorb.com"
-      },
-      {
-        "name": "Moesif",
-        "url": "https://www.moesif.com/solutions/metered-api-billing"
-      },
-      {
-        "name": "Amberflo",
-        "url": "https://www.amberflo.io"
-      },
-        {
-        "name": "Maxio",
-        "url": "https://www.maxio.com/subscription-billing"
-      },
-        {
-        "name": "Goodsign",
-        "url": "https://www.goodsign.com/software"
-      },
-        {
-        "name": "Stripe",
-        "url": "https://stripe.com/docs/billing/subscriptions/usage-based"
-      },
-        {
-        "name": "Metronome",
-        "url": "https://metronome.com/"
-      },
-        {
-        "name": "Octane",
-        "url": "https://www.getoctane.io/"
-      }
-        
-    ]
-  }
+  "data": [
+    {
+      "name": "Archetype",
+      "url": "https://www.archetype.dev"
+    },
+    {
+      "name": "m3ter",
+      "url": "https://www.m3ter.com"
+    },
+    {
+      "name": "Tier",
+      "url": "https://www.tier.run"
+    },
+    {
+      "name": "Lago",
+      "url": "https://www.getlago.com"
+    },
+    {
+      "name": "Togai",
+      "url": "https://www.togai.com/"
+    },
+    {
+      "name": "Orb",
+      "url": "https://www.withorb.com"
+    },
+    {
+      "name": "Moesif",
+      "url": "https://www.moesif.com/solutions/metered-api-billing"
+    },
+    {
+      "name": "Amberflo",
+      "url": "https://www.amberflo.io"
+    },
+    {
+      "name": "Maxio",
+      "url": "https://www.maxio.com/subscription-billing"
+    },
+    {
+      "name": "Goodsign",
+      "url": "https://www.goodsign.com/software"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://stripe.com/docs/billing/subscriptions/usage-based"
+    },
+    {
+      "name": "Metronome",
+      "url": "https://metronome.com/"
+    },
+    {
+      "name": "Octane",
+      "url": "https://www.getoctane.io/"
+    },
+    {
+      "name": "Authorize.Net",
+      "url": "https://www.authorize.net/"
+    },
+    {
+      "name": "Square",
+      "url": "https://squareup.com/"
+    },
+    {
+      "name": "Zuora",
+      "url": "https://www.zuora.com/"
+    },
+    {
+      "name": "PayPal",
+      "url": "https://www.paypal.com/"
+    }
+  ]
+}
