@@ -45,6 +45,10 @@
         "url": "https://www.goodsign.com/software"
       },
         {
+        "name": "Stigg",
+        "url": "https://www.stigg.io"
+      },
+        {
         "name": "Stripe",
         "url": "https://stripe.com/docs/billing/subscriptions/usage-based"
       },
