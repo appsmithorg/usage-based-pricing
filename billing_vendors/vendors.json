@@ -67,6 +67,10 @@
     {
       "name": "PayPal",
       "url": "https://www.paypal.com/"
+    },
+    {
+      "name": "OpenMeter",
+      "url": "https://openmeter.io"
     }
   ]
 }
